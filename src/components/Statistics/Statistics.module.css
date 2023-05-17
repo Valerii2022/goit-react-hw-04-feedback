@@ -1,0 +1,13 @@
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.value {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 4px;
+}
