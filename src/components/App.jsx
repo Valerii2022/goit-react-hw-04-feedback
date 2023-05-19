@@ -27,7 +27,7 @@ const App = () => {
 
   const total = countTotalFeedback();
   const percentage = countPercentage();
-  const options = ['good', 'neutral', 'bad'];
+  const options = Object.keys({ good, neutral, bad });
 
   return (
     <div>
